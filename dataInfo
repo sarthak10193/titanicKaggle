@@ -1,0 +1,41 @@
+Shape :  (891, 12)
+
+Data columns (total 12 columns):
+PassengerId    891 non-null int64      XXXXXXXX
+Survived       891 non-null int64      o/p variable
+Pclass         891 non-null int64      ########
+Name           891 non-null object     XXXXXXXX
+Cabin          204 non-null object     #########
+Embarked       889 non-null object     #########
+Ticket         891 non-null object     XXXXXXXXX
+Fare           891 non-null float64    #########
+
+Sex            891 non-null object     *********
+Age            714 non-null float64    *********
+SibSp          891 non-null int64      ?????????   sibsp Number of Siblings/Spouses Aboard
+Parch          891 non-null int64      ?????????   parch Number of Parents/Children Aboard
+
+dtypes: float64(2), int64(5), object(5)
+
+survived count  342
+not survived count  549
+
+
+PClass for survived = 1
+1    136
+2     87
+3    119
+
+PClass for survived
+1    216
+2    184
+3    491
+
+
+
+Questions ???
+inplace
+kernel density estimate
+while dropping what does mentioning the axis do
+
+
